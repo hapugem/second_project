@@ -219,7 +219,7 @@ CSV files of various types.
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>failsafe-maven-plugin</artifactId>
         <version>2.4.3-alpha-1</version>
-        <executions>gins>
+        <executions>
           <execution>
             <goals>
               <goal>integration-test</goal>
