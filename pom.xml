@@ -214,6 +214,20 @@ CSV files of various types.
           </excludes>
         </configuration>
       </plugin>
+     <!-- Configur Failsafe plugin in the POM newly added:-->   
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>failsafe-maven-plugin</artifactId>
+        <version>2.4.3-alpha-1</version>
+        <executions>gins>
+          <execution>
+            <goals>
+              <goal>integration-test</goal>
+              <goal>verify</goal>
+            </goals>
+          </execution>
+        </executions>
+       </plugin>
     </plugins>
   </build>
 
